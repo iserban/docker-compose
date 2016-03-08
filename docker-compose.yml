@@ -1,0 +1,6 @@
+myfrontend:
+    build: ./frontend
+    links:
+        - service1
+service1:
+    build: ./backend
